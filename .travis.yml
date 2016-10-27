@@ -17,3 +17,6 @@ before_script:
   - sudo apt-get update -qq
   - sudo apt-get install -qq --force-yes g++-4.8
   - export CXX="g++-4.8"
+
+script:
+  - nodebot-workshop verify blink-blink.js
