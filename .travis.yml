@@ -1,5 +1,7 @@
 language: node_js
 
+sudo: required
+
 node_js:
   - '0.10'
   - '0.12'
@@ -7,3 +9,7 @@ node_js:
   - '5'
   - '6'
   - "iojs"
+
+before_script:
+  - npm install -g johnny-five
+  - npm install -g dnode
