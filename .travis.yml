@@ -20,4 +20,4 @@ before_script:
   - export CXX="g++-4.8"
 
 script:
-  - nodebot-workshop verify blink-blink.js
+  - nodebot-workshop verify program.js
